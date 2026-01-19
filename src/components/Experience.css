@@ -1,72 +1,70 @@
-.experience-section {
-  background: #fff;
-  padding: 60px 0;
-  text-align: center;
-}
-.experience-section h2 {
-  color: #22223b;
-  font-size: 2.2rem;
-  margin-bottom: 32px;
-}
-.timeline {
-  position: relative;
-  max-width: 700px;
-  margin: 0 auto;
-  padding-left: 20px;
-}
-.timeline:before {
-  content: '';
-  position: absolute;
-  left: 18px;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: #4f8cff;
-  border-radius: 2px;
-}
-.timeline-item {
+.experience-card {
+  grid-column: span 2;
+  grid-row: span 1;
   display: flex;
-  align-items: flex-start;
-  margin-bottom: 40px;
-  position: relative;
+  flex-direction: column;
 }
-.timeline-dot {
-  width: 16px;
-  height: 16px;
-  background: #fff;
-  border: 4px solid #4f8cff;
+
+.experience-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-header h3 {
+  font-size: 1.2rem;
+  color: var(--text-primary);
+}
+
+.timeline-mini {
+  position: relative;
+  padding-left: 12px;
+  border-left: 2px solid var(--border-color);
+  margin-left: 8px;
+}
+
+.timeline-item-mini {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-item-mini:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-dot-mini {
+  width: 10px;
+  height: 10px;
+  background: var(--accent-primary);
   border-radius: 50%;
   position: absolute;
-  left: 10px;
-  top: 0;
-  z-index: 1;
+  left: -18px;
+  top: 4px;
+  box-shadow: 0 0 10px var(--accent-primary);
 }
-.timeline-content {
-  background: #f4f7fb;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(60, 60, 120, 0.06);
-  padding: 20px 28px;
-  margin-left: 40px;
-  text-align: left;
-  width: 100%;
-}
-.timeline-content h3 {
-  margin: 0 0 6px 0;
-  color: #4f8cff;
-  font-size: 1.2rem;
-}
-.timeline-content span {
-  color: #22223b;
+
+.timeline-content-mini h4 {
   font-size: 1rem;
-  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 4px;
 }
-.timeline-period {
+
+.timeline-content-mini span {
+  font-size: 0.85rem;
+  color: var(--accent-secondary);
   display: block;
-  color: #888;
-  font-size: 0.95rem;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
-.timeline-content p {
-  color: #444;
-  margin: 0;
-} 
+
+.timeline-content-mini p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .experience-card {
+    grid-column: span 1;
+  }
+}

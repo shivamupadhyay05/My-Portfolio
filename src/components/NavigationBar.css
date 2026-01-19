@@ -2,11 +2,11 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background: rgba(20, 24, 36, 0.92);
+  background: rgba(15, 23, 42, 0.8);
   z-index: 100;
-  box-shadow: 0 2px 16px rgba(0,188,212,0.10);
-  padding: 0.5rem 0;
-  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem 0;
+  backdrop-filter: blur(12px);
 }
 
 .navbar-list {
@@ -20,28 +20,26 @@
 }
 
 .navbar-list li a {
-  color: #fff;
+  color: var(--text-secondary);
   text-decoration: none;
-  font-weight: 600;
-  font-size: 1.1rem;
+  font-weight: 500;
+  font-size: 1rem;
   padding: 0.5rem 1rem;
-  border-radius: 6px;
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  border-radius: 50px;
+  transition: var(--transition);
 }
 
 .navbar-list li a:hover, .navbar-list li a:focus {
-  background: #00bcd4;
-  color: #181717;
-  box-shadow: 0 2px 12px #00bcd4aa;
+  background: rgba(56, 189, 248, 0.1);
+  color: var(--accent-primary);
 }
 
 @media (max-width: 600px) {
   .navbar-list {
     gap: 0.5rem;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
   .navbar-list li a {
-    padding: 0.4rem 0.7rem;
-    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
   }
-} 
+}

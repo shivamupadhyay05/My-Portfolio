@@ -13,6 +13,7 @@ const Skills = () => {
     { name: 'C++', icon: '➕' },
     { name: 'Python', icon: '🐍' },
     { name: 'SQL', icon: '🗄️' },
+    { name: 'QA Testing', icon: '🧪' },
   ];
 
   const softSkills = [

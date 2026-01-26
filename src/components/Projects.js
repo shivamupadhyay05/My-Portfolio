@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: 'Eco-Earn',
       description: 'Developed the Eco-Earn platform, effectively communicating AI-powered features and incentivized recycling processes, increasing user engagement by 40%. Crafted and optimized website copy and UI text, ensuring clarity and compelling messaging. Integrated AI and Machine Learning (ML) for enhanced user experience.',
-      link: '#'
+      link: 'https://github.com/shivamupadhyay05/eco-earn'
     },
     {
       title: 'Pawlytics',

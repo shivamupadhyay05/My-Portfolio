@@ -35,6 +35,13 @@ const About = () => {
         <a href="mailto:Shivamu0504@gmail.com" className="social-btn" aria-label="Email"><i className="fas fa-envelope"></i></a>
         <a href="tel:+916390533255" className="social-btn" aria-label="Phone"><i className="fas fa-phone"></i></a>
       </div>
+
+      <div className="about-resume">
+        <a href="/resume.pdf" className="resume-btn" download>
+          <i className="fas fa-download" aria-hidden="true"></i>
+          <span>Download Resume</span>
+        </a>
+      </div>
     </div>
   );
 };

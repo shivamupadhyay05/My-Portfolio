@@ -1,4 +1,5 @@
-.experience-card {
+.experience-card,
+.activities-card {
   grid-column: span 2;
   grid-row: span 1;
   display: flex;

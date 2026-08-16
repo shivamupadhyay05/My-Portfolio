@@ -32,7 +32,7 @@ const About = () => {
           <br />
           B.Tech in Computer Science, Bennett University – 7.91 CGPA (May 2027)
           <br />
-          Kendriya Vidyalaya Old Cantt, CBSE – 91% & 80% (March 2023)
+          Kendriya Vidyalaya Old Cantt, CBSE – 91% & 80% (March 2023 and 2021)
         </div>
       </div>
 

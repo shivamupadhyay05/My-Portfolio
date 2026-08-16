@@ -1,32 +1,42 @@
-import React from 'react';
-import './Projects.css';
+import React from "react";
+import "./Projects.css";
 
 const Projects = () => {
   const projects = [
     {
-      title: 'Eco-Earn',
-      description: 'Developed the Eco-Earn platform, effectively communicating AI-powered features and incentivized recycling processes, increasing user engagement by 40%. Crafted and optimized website copy and UI text, ensuring clarity and compelling messaging. Integrated AI and Machine Learning (ML) for enhanced user experience.',
-      link: 'https://github.com/shivamupadhyay05/eco-earn'
+      title: "ExpanseFLOW",
+      description:
+        "Developed the Eco-Earn platform, effectively communicating AI-powered features and incentivized recycling processes, increasing user engagement by 40%. Crafted and optimized website copy and UI text, ensuring clarity and compelling messaging. Integrated AI and Machine Learning (ML) for enhanced user experience.",
+      link: "https://github.com/shivamupadhyay05/ExpanseFLOW",
     },
     {
-      title: 'Pawlytics',
-      description: 'Pawlytics — Web Platform GitHub • Developed a responsive web platform connecting pet owners with local shopkeepers. • Built role-based dashboards for customers and shopkeepers. • Implemented full CRUD functionality for products and user profiles. • Ensured mobile responsiveness and cross-browser compatibility.',
-      link: 'https://github.com/shivamupadhyay05/PAWLYTICS'
-    }
+      title: "HealthNudge-AI",
+      description:
+        "HealthNudge is a full-stack platform designed to help users manage their health using AI-driven tools. It allows secure upload of medical reports (PDF/image) and uses a hybrid parsing approach (OCR + text extraction) to generate summaries. Users receive personalized veg/non-veg diet plans, can track progress on a dynamic dashboard, and benefit from an accessibility-first Text-to-Speech feature that reads reports aloud".
+      link: "https://github.com/shivamupadhyay05/HealthNudge-AI",
+    },
   ];
 
   return (
     <div className="bento-card projects-card" id="projects">
       <div className="projects-header">
         <h3>Projects</h3>
-        <i className="fas fa-folder-open" style={{ color: 'var(--accent-secondary)' }}></i>
+        <i
+          className="fas fa-folder-open"
+          style={{ color: "var(--accent-secondary)" }}
+        ></i>
       </div>
       <div className="projects-grid-mini">
         {projects.map((project, index) => (
           <div className="project-mini-card" key={index}>
             <h4>{project.title}</h4>
             <p>{project.description}</p>
-            <a href={project.link} className="project-link" target="_blank" rel="noopener noreferrer">
+            <a
+              href={project.link}
+              className="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Project <i className="fas fa-arrow-right"></i>
             </a>
           </div>

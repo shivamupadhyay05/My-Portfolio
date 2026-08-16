@@ -15,8 +15,8 @@ const About = () => {
       </div>
 
       <div className="about-bio">
+        <p>Community Facilitator Lead | Content Head | Developer Passionate</p>
         <p>
-          Community Facilitator Lead | Content Head | Developer. Passionate
           about building seamless digital experiences and turning complex
           problems into elegant solutions.
         </p>

@@ -6,15 +6,15 @@ const Projects = () => {
     {
       title: "ExpanseFLOW",
       description:
-        "Developed the Eco-Earn platform, effectively communicating AI-powered features and incentivized recycling processes, increasing user engagement by 40%. Crafted and optimized website copy and UI text, ensuring clarity and compelling messaging. Integrated AI and Machine Learning (ML) for enhanced user experience.",
+        " A ",
       link: "https://github.com/shivamupadhyay05/ExpanseFLOW",
     },
     {
       title: "HealthNudge-AI",
       description:
         "HealthNudge is a full-stack platform designed to help users manage their health using AI-driven tools. It allows secure upload of medical reports (PDF/image) and uses a hybrid parsing approach (OCR + text extraction) to generate summaries. Users receive personalized veg/non-veg diet plans, can track progress on a dynamic dashboard, and benefit from an accessibility-first Text-to-Speech feature that reads reports aloud".
-      link: "https://github.com/shivamupadhyay05/HealthNudge-AI",
-    },
+      link:"https://github.com/shivamupadhyay05/HealthNudge-AI"
+    };
   ];
 
   return (

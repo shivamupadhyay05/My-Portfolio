@@ -5,16 +5,15 @@ const Projects = () => {
   const projects = [
     {
       title: "ExpanseFLOW",
-      description:
-        " A ",
+      description: " A Smart Expanse tracker project",
       link: "https://github.com/shivamupadhyay05/ExpanseFLOW",
     },
     {
       title: "HealthNudge-AI",
       description:
-        "HealthNudge is a full-stack platform designed to help users manage their health using AI-driven tools. It allows secure upload of medical reports (PDF/image) and uses a hybrid parsing approach (OCR + text extraction) to generate summaries. Users receive personalized veg/non-veg diet plans, can track progress on a dynamic dashboard, and benefit from an accessibility-first Text-to-Speech feature that reads reports aloud".
-      link:"https://github.com/shivamupadhyay05/HealthNudge-AI"
-    };
+        "HealthNudge is a full-stack platform designed to help users manage their health using AI-driven tools. It allows secure upload of medical reports (PDF/image) and uses a hybrid parsing approach (OCR + text extraction) to generate summaries. Users receive personalized veg/non-veg diet plans, can track progress on a dynamic dashboard, and benefit from an accessibility-first Text-to-Speech feature that reads reports aloud",
+      link: "https://github.com/shivamupadhyay05/HealthNudge-AI",
+    },
   ];
 
   return (

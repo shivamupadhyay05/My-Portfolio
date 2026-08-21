@@ -5,7 +5,8 @@ const Projects = () => {
   const projects = [
     {
       title: "ExpanseFLOW",
-      description: " A Smart Expanse tracker project",
+      description:
+        "ExpanseFLOW is a full-stack financial management platform for tracking expenses, managing budgets, and visualizing financial insights with secure JWT authentication, Prisma-powered data management, and Redis caching for faster dashboard performance.",
       link: "https://github.com/shivamupadhyay05/ExpanseFLOW",
     },
     {

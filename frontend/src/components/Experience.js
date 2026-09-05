@@ -8,7 +8,7 @@ const Experience = () => {
       company: "NyneOS Technologies Private Limited",
       period: "March 2026 - June 2026",
       description:
-        "Contributing to software development tasks, collaborating with the engineering team to build features, and gaining hands-on experience in real-world product delivery.",
+        "Contributed to software development tasks, collaborated with the engineering team to build features, and gained hands-on experience in real-world product delivery.",
     },
   ];
 
